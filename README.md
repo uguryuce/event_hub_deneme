@@ -8,5 +8,7 @@
   <li>Kalan responsive ayarlarını yap</li>
   <li>Diğer sayfalara başla</li>
   <li>Kartlara hover olayı ekle, sembol kullan</li>
+  <li>Düzenle butonunu icon yap, hover ekle</li>
+  <li>Profili bitir</li>
 
 </ul>

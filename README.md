@@ -7,5 +7,6 @@
   <li>Yazı fontlarını değiştir</li>
   <li>Kalan responsive ayarlarını yap</li>
   <li>Diğer sayfalara başla</li>
+  <li>Kartlara hover olayı ekle, sembol kullan</li>
 
 </ul>

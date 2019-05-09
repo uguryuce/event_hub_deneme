@@ -10,6 +10,8 @@
   <li>Kartlara hover olayı ekle, sembol kullan</li>
   <li>Düzenle butonunu icon yap, hover ekle</li>
   <li>Profil Sayfasının düzenini uygun bir şey bulursan değiştir.</li>
+  <li>Profil sayfası responsive yapılacak</li>
+  <li>İkon üstüne gelindiğinde hemen üstünde kart çıkar.(Düzenle, ayrıntı vs ikonları için)</li>
   
 
 </ul>

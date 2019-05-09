@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Event Hub</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
+
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            if ($.browser.msie && $.browser.version.substr(0, 1) < 7) {
+                $('li').has('ul').mouseover(function() {
+                    $(this).children('ul').show();
+                }).mouseout(function() {
+                    $(this).children('ul').hide();
+                })
+            }
+        });
+
+    </script>
+    
+    <style>
+        
+        body{
+            background-color: #f2f2f2;
+        }
+    
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+        <div class="container clearfix">
+            <div id="logo-box">
+                <a href="/" class="logo text-uppercase">
+                    event hub
+                </a>
+            </div>
+            <div id="nav-links" class="responsive">
+
+                <ul id="menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-uppercase nav-icon">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 1px;">Home</a></li>
+                    <li>
+                        <a href="#" class="nav-link k_adi" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 1px;">Uğur Yüce</a>
+                        <ul>
+                            <li class="nav-item"><a href="#" class="nav-link" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 1px;">Profil</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 1px;">Oluşturulan Etkinlikler</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 1px;">Etkinlik Oluştur</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 1px;">Profili Düzenle</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 1px;">Çıkış</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 2px;">ETKİNLİK</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 2px;">BİLDİRİM</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <div style="padding: calc(6rem + 100px); font-size: 18px; margin-bottom: 200px;">
+        <div>
+            <h3 style="color: black; margin-bottom: 20px; display: block;">Profil Bilgileri</h3>
+            <div style="margin-right: 80%; margin-top: 30px;">
+                <a href="#"><i style="color: gray; font-size: 25px;" class="fas fa-edit"></i></a>
+            </div>
+
+        </div>
+
+
+        <div class="profil-bilgileri" style=" display: block; float: left; width: 30%;">
+
+            <ul>
+                <li style="padding-top: 20px; margin-bottom: 10px;"><b>Kullanıcı Adı:</b></li>
+                <hr color="lightgray">
+                <li style="padding-top: 20px;margin-bottom: 10px;"><b>Doğum Tarihi:</b></li>
+                <hr color="lightgray">
+                <li style="padding-top: 20px;margin-bottom: 10px;"><b>Meslek:</b></li>
+                <hr color="lightgray">
+                <li style="padding-top: 20px;margin-bottom: 10px;"><b>E-mail: </b></li>
+                <hr color="lightgray">
+            </ul>
+        </div>
+        <div class="profil-bilgileri" style="display: block; float: left; width: 35%;">
+
+            <li style="padding-top: 20px;padding-bottom: 10px;">Uğur Yüce</li>
+            <hr color="lightgray">
+            <li style="padding-top: 20px;margin-bottom: 10px;">09.04.1998</li>
+            <hr color="lightgray">
+            <li style="padding-top: 20px;margin-bottom: 10px;">Öğrenci</li>
+            <hr color="lightgray">
+            <li style="padding-top: 20px;margin-bottom: 10px;">uguryucae1903@gmail.com</li>
+            <hr color="lightgray">
+        </div>
+
+
+    </div>
+    
+    
+
+    <section id="portfolio" style="background-color: #f2f2f2">
+        <div class="cantainer">
+            <h2 class="" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 4px; color: #000;">
+                KATILDIĞIN ETKİNLİKLER
+            </h2>
+            <br><br>    
+
+
+            <div id="portfolio-images" class="clearfix">
+
+                <div style="display: block; float: left; width: 90%;margin-left: 5%; border-bottom: 2px solid lightgray;  padding: 30px; margin-top: 50px; border-radius: 30px;">
+                    <div style="display: block; float: left; width: 30%;">
+                        <img src="aa2.jpeg" style="border-radius: 30px;">
+                    </div>
+                    <div style="display: block; float: left; width: 55%; margin-top: 60px; margin-left: 60px;">
+                       <h3 style="margin-bottom: 20px; color: #000;">Python Etkinliği</h3>
+                        <p style="color: #000;">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eveniet, minus dolore magni ducimus. Libero ea harum cumque amet sapiente nisi, recusandae facilis repellendus ducimus rem! Harum delectus consequatur, quam.
+                        </p>
+                    </div>
+                </div>
+                
+                <div style="display: block; float: left; width: 90%;margin-left: 5%; border-bottom: 2px solid lightgray; padding: 30px; margin-top: 50px; border-radius: 30px;">
+                    <div style="display: block; float: left; width: 30%;">
+                        <img src="about1.jpeg" style="border-radius: 30px;">
+                    </div>
+                    <div style="display: block; float: left; width: 55%; margin-top: 60px; margin-left: 60px;">
+                        <h3 style="margin-bottom: 20px;">C++ Kampı</h3>
+                           <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eveniet, minus dolore magni ducimus. Libero ea harum cumque amet sapiente nisi, recusandae facilis repellendus ducimus rem! Harum delectus consequatur, quam.
+                        </p>
+                    </div>
+                </div>
+                
+                <div style="display: block; float: left; width: 90%;margin-left: 5%; border-bottom: 2px solid lightgray;padding: 30px; margin-top: 50px; border-radius: 30px;">
+                    <div style="display: block; float: left; width: 30%;">
+                        <img src="aa3.jpeg" style="max-height: 300px; border-radius: 30px;">
+                    </div>
+                    <div style="display: block; float: left; width: 55%; margin-top: 60px; margin-left: 60px;">
+                        <h3 style="margin-bottom: 20px;">Barbekü Partisi</h3>
+                           <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eveniet, minus dolore magni ducimus. Libero ea harum cumque amet sapiente nisi, recusandae facilis repellendus ducimus rem! Harum delectus consequatur, quam.
+                        </p>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="cantainer" style="margin-top: 100px;">
+            <h2 class="" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 4px;">
+                OLUŞTURDUĞUN ETKİNLİKLER
+            </h2>
+            <br><br>    
+
+
+            <div id="portfolio-images" class="clearfix">
+
+                <div style="display: block; float: left; width: 90%;margin-left: 5%; border-bottom: 2px solid lightgray; padding: 30px; margin-top: 50px; border-radius: 30px;">
+                    <div style="display: block; float: left; width: 30%;">
+                        <img src="aa2.jpeg" style="border-radius: 30px;">
+                    </div>
+                    <div style="display: block; float: left; width: 55%; margin-top: 60px; margin-left: 60px;">
+                       <h3 style="margin-bottom: 20px;">Python Etkinliği</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eveniet, minus dolore magni ducimus. Libero ea harum cumque amet sapiente nisi, recusandae facilis repellendus ducimus rem! Harum delectus consequatur, quam.
+                        </p>
+                    </div>
+                </div>
+                
+                <div style="display: block; float: left; width: 90%;margin-left: 5%; border-bottom: 2px solid lightgray; padding: 30px; margin-top: 50px; border-radius: 30px;">
+                    <div style="display: block; float: left; width: 30%;">
+                        <img src="about1.jpeg" style="border-radius: 30px;">
+                    </div>
+                    <div style="display: block; float: left; width: 55%; margin-top: 60px; margin-left: 60px;">
+                        <h3 style="margin-bottom: 20px;">C++ Kampı</h3>
+                           <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eveniet, minus dolore magni ducimus. Libero ea harum cumque amet sapiente nisi, recusandae facilis repellendus ducimus rem! Harum delectus consequatur, quam.
+                        </p>
+                    </div>
+                </div>
+                
+                <div style="display: block; float: left; width: 90%;margin-left: 5%; border-bottom: 2px solid lightgray; padding: 30px; margin-top: 50px; border-radius: 30px;">
+                    <div style="display: block; float: left; width: 30%;">
+                        <img src="aa3.jpeg" style="max-height: 300px; border-radius: 30px;">
+                    </div>
+                    <div style="display: block; float: left; width: 55%; margin-top: 60px; margin-left: 60px;">
+                        <h3 style="margin-bottom: 20px;">Barbekü Partisi</h3>
+                           <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem eveniet, minus dolore magni ducimus. Libero ea harum cumque amet sapiente nisi, recusandae facilis repellendus ducimus rem! Harum delectus consequatur, quam.
+                        </p>
+                    </div>
+                </div>
+
+                
+
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="footer-as">
+        <div class="container clearfix">
+
+            <div class="col">
+                <h4 class="text-uppercase" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 2px;">Lokasyon</h4>
+                <p style="font-family: 'Cormorant Garamond', serif; letter-spacing: 2px;">
+                    Erzurum , Türkiye
+                </p>
+            </div>
+            <div class="col">
+                <h4 class="text-uppercase" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 2px;">BİZİ TAKİP EDİN</h4>
+                <ul>
+
+                    <li>
+                        <button class="btn btn-social">
+                            <i class="fab fa-fw fa-facebook-f"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-social">
+                            <i class="fab fa-fw fa-google-plus-g"></i>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="btn btn-social">
+                            <i class="fab fa-fw fa-twitter"></i>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="btn btn-social">
+                            <i class="fab fa-fw fa-linkedin-in"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-social">
+                            <i class="fab fa-fw fa-dribbble"></i>
+                        </button>
+                    </li>
+
+
+
+                </ul>
+            </div>
+            <div class="col">
+                <h4 class="text-uppercase" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 2px;">HAKKIMIZDA</h4>
+                <p style="font-family: 'Cormorant Garamond', serif; letter-spacing: 2px;    ">
+                    Anam babam için ve de hatunum için yapıyorum bu işi biladerim için
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <hr style="margin-right: 10%; margin-left: 10%;">
+
+    <div class="copyright">
+        <div class="container">
+            <small>
+                Copyright © EventHub 2019
+            </small>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script>
+        $('.nav-icon').click(function() {
+            $('#nav-links').toggleClass("responsive");
+            return false;
+        });
+
+    </script>
+
+</body>
+
+</html>

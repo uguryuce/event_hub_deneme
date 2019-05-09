@@ -9,6 +9,7 @@
   <li>Diğer sayfalara başla</li>
   <li>Kartlara hover olayı ekle, sembol kullan</li>
   <li>Düzenle butonunu icon yap, hover ekle</li>
-  <li>Profili bitir</li>
+  <li>Profil Sayfasının düzenini uygun bir şey bulursan değiştir.</li>
+  
 
 </ul>

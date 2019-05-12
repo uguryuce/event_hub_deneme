@@ -12,6 +12,7 @@
   <li>Profil Sayfasının düzenini uygun bir şey bulursan değiştir.</li>
   <li>Profil sayfası responsive yapılacak</li>
   <li>İkon üstüne gelindiğinde hemen üstünde kart çıkar.(Düzenle, ayrıntı vs ikonları için)</li>
+  <li>Detay sayfası yapılacak</li>
   
 
 </ul>

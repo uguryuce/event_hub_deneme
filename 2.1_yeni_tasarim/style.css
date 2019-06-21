@@ -256,7 +256,7 @@ nav {
 }
 
 .k_adi {
-    
+
     padding-left: 10px;
     margin-top: 5px;
 }
@@ -376,12 +376,10 @@ nav {
 
 #menu ul a:hover {
     background-color: #f3f5f8;
-    
+
 }
 
-#menu ul li:first-child a {
-    
-}
+#menu ul li:first-child a {}
 
 #menu ul li:first-child a:after {
     content: '';
@@ -390,19 +388,17 @@ nav {
     top: -8px;
     width: 0;
     height: 0;
-    
+
 }
 
-#menu ul li:first-child a:hover:after {
-    
-}
+#menu ul li:first-child a:hover:after {}
 
 #menu ul li:nth-child(even) a {
     background-color: white;
     color: black;
 }
 
-#menu ul li:nth-child(odd) a{
+#menu ul li:nth-child(odd) a {
     background-color: white;
     color: black;
 }
@@ -467,7 +463,7 @@ nav {
     #nav-links .nav-link {
         font-size: 2rem;
         padding-left: 0;
-        
+
     }
 
     #nav-links .nav-item {
@@ -560,6 +556,15 @@ hr.star-dark {
     color: #000000;
 }
 
+#portfolio-images {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#portfolio-image {
+    margin-left: 2%;
+    margin-right: 2%;
+}
 
 
 .portfolio-item {
@@ -754,7 +759,7 @@ footer li {
     height: 50vh;
     background-size: cover;
     background-position: top;
-    
+
     position: relative;
 }
 
@@ -855,20 +860,21 @@ img {
 }
 
 .card-category {
-    width: 17%;
+    width: 16%;
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
+    border-radius: 15px;
     transition: box-shadow 0.3s;
     display: block;
     float: left;
+    height: auto;
 
 }
 
 
 .card-image {
     width: 100%;
-    border-radius: 5px;
+    border-radius: 15px;
     transition: opacity 2s ease;
 }
 
@@ -920,67 +926,192 @@ img {
     margin-bottom: 15px;
 }
 
-.card-gorsel{
+.card-gorsel {
     padding: 10px 16px;
     width: 100%;
     color: #fff;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 150px;
     background-size: cover;
+    border-radius: 5px;
 }
 
 .card-body01 {
-    
-    background-image: url(xz1.jpeg);
-    
+
+    background-image: url(category/technology.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
 
 .card-body02 {
-    
-    background-image: url(xz1.jpeg);
-    
+
+    background-image: url(category/sport.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .card-body03 {
-    
-    background-image: url(xz1.jpeg);
-    
+
+    background-image: url(category/photo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 .card-body04 {
-    
-    background-image: url(xz1.jpeg);
-   
+
+    background-image: url(category/outdoor.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
+
 .card-body05 {
 
-    background-image: url(xz1.jpeg);
-   
+    background-image: url(category/music.jpeg);
+
 
 }
+
 .card-body06 {
-    background-image: url(xz1.jpeg);
-  
+    background-image: url(category/learn.jpeg);
+
 }
+
 .card-body07 {
-    background-image: url(xz1.jpeg);
-  
+    background-image: url(category/health.jpeg);
+
 
 }
+
 .card-body08 {
-    background-image: url(xz1.jpeg);
-   
-}
-.card-body09{
-    background-image: url(xz1.jpeg);
- 
-}
-.card-body10{
-    background-image: url(xz1.jpeg);
+    background-image: url(category/family.jpeg);
 
 }
+
+.card-body09 {
+    background-image: url(category/sanat.jpeg);
+
+}
+
+.card-body10 {
+    background-image: url(category/film.jpeg);
+
+}
+
+.card-body11 {
+
+    background-image: url(category/yeme-icme.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.card-body12 {
+
+    background-image: url(category/yazarlik.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card-body13 {
+
+    background-image: url(category/dil-culture.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card-body14 {
+
+    background-image: url(category/hareket.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.card-body15 {
+
+    background-image: url(category/game.jpeg);
+
+
+}
+
+.card-body16 {
+    background-image: url(category/inanc.jpeg);
+
+}
+
+.card-body17 {
+    background-image: url(category/kitap-kulupleri.jpeg);
+
+
+}
+
+.card-body18 {
+    background-image: url(category/dans.jpeg);
+
+}
+
+.card-body19 {
+    background-image: url(category/evcil-hayvan.jpeg);
+
+}
+
+.card-body20 {
+    background-image: url(category/hobiler.jpeg);
+
+}
+
+.card-body21 {
+
+    background-image: url(category/moda.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.card-body22 {
+
+    background-image: url(category/sosyal.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card-body23 {
+
+    background-image: url(category/kariyer.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.card-body24 {
+
+    background-image: url(category/yazilim.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.card-body25 {
+
+    background-image: url(category/diger.jpeg);
+
+
+}
+
+
 
 
 
@@ -1150,54 +1281,56 @@ a.ghost.inverted:hover {
 
 }
 
-.hayalet-btn{
+.hayalet-btn {
     margin-top: 30px;
 }
 
 
-.arama{
-    
-    
-}
+.arama {}
 
 
 .cantainer {
     margin-top: 40px;
 }
 
-.arama input{
+.arama input {
     margin-right: 10px;
     margin-left: 10px;
 }
 
 
-a.animated-button:link:hover, a.animated-button:visited:hover {
-	color: #FFF;
-	text-shadow: none;
-    background-color: rgba(0,0,0,0.1);
+a.animated-button:link:hover,
+a.animated-button:visited:hover {
+    color: #FFF;
+    text-shadow: none;
+    background-color: rgba(0, 0, 0, 0.1);
 }
-a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
-	height: 450%;
+
+a.animated-button:link:hover:after,
+a.animated-button:visited:hover:after {
+    height: 450%;
 }
-a.animated-button:link, a.animated-button:visited {
-	position: relative;
-	display: block;
-	margin: 30px auto 0;
-	padding: 10px 15px;
-	color: #fff;
-	font-size:20px;
-	border-radius: 0;
-	font-weight: 600;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	overflow: hidden;
-	letter-spacing: 0.3em;
-	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
-	-webkit-transition: all 1s ease;
-	-moz-transition: all 1s ease;
-	-o-transition: all 1s ease;
-	transition: all 1s ease;
+
+a.animated-button:link,
+a.animated-button:visited {
+    position: relative;
+    display: block;
+    margin: 30px auto 0;
+    padding: 10px 15px;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 0;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: 0.3em;
+    text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 a.animated-button {
@@ -1207,22 +1340,6 @@ a.animated-button {
 /* Victoria Buttons */
 
 a.animated-button.victoria-one {
-	border: 2px solid #D24D57;
+    border: 2px solid #D24D57;
     background: #D24D57;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

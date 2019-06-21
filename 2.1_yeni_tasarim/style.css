@@ -256,10 +256,12 @@ nav {
 }
 
 .k_adi {
-    border-bottom: 1px solid white;
+    
     padding-left: 10px;
     margin-top: 5px;
 }
+
+
 
 @media (max-width: 992px) {
     .k_adi {
@@ -303,12 +305,12 @@ nav {
 
 
 #menu li:hover > a {
-    color: #fafafa;
+    color: #000;
 }
 
 *html #menu li a:hover {
     /* IE6 */
-    color: #fafafa;
+    color: #000;
 }
 
 #menu li:hover > ul {
@@ -373,12 +375,12 @@ nav {
 }
 
 #menu ul a:hover {
-    background-color: #0186ba;
-    background-image: linear-gradient(#04acec, #0186ba);
+    background-color: #f3f5f8;
+    
 }
 
 #menu ul li:first-child a {
-    border-radius: 5px 5px 0 0;
+    
 }
 
 #menu ul li:first-child a:after {
@@ -388,23 +390,21 @@ nav {
     top: -8px;
     width: 0;
     height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-bottom: 8px solid #444;
+    
 }
 
 #menu ul li:first-child a:hover:after {
-    border-bottom-color: #04acec;
+    
 }
 
 #menu ul li:nth-child(even) a {
-    border-radius: 0 0 5px 5px;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 #menu ul li:nth-child(odd) a{
-    border-radius: 0 0 5px 5px;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 /* Clear floated elements */
@@ -602,15 +602,13 @@ hr.star-dark {
 
 /*about*/
 #about {
-    background-image:
-        linear-gradient(to left bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-        url(img/asorti.jpeg);
+    background-color: #1E0A3C;
     color: #f2f2f2;
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 180px;
-    height: 680px;
+    height: auto;
 }
 
 #about h2 {
@@ -816,20 +814,20 @@ input.ghost {
 }
 
 input.ghost.inverted {
-    background-image: linear-gradient(to bottom, transparent 90%, white 110%);
-    color: white;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    background-image: linear-gradient(to bottom, transparent 90%, lightgray 110%);
+    color: black;
+    border: 1px solid rgba(0, 0, 0, 0.3);
 }
 
 input.ghost:hover {
-    margin-top: -20px;
-    color: white;
+    margin-top: 0px;
+    color: black;
     background-position: 0 -100%;
 
 }
 
 input.ghost.inverted:hover {
-    color: white;
+    color: black;
     background-position: 0 -100%;
 
 }
@@ -856,6 +854,16 @@ img {
 
 }
 
+.card-category {
+    width: 17%;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+    display: block;
+    float: left;
+
+}
 
 
 .card-image {
@@ -911,6 +919,69 @@ img {
 .card-title {
     margin-bottom: 15px;
 }
+
+.card-gorsel{
+    padding: 10px 16px;
+    width: 100%;
+    color: #fff;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+}
+
+.card-body01 {
+    
+    background-image: url(xz1.jpeg);
+    
+
+}
+
+.card-body02 {
+    
+    background-image: url(xz1.jpeg);
+    
+}
+
+.card-body03 {
+    
+    background-image: url(xz1.jpeg);
+    
+}
+
+.card-body04 {
+    
+    background-image: url(xz1.jpeg);
+   
+
+}
+.card-body05 {
+
+    background-image: url(xz1.jpeg);
+   
+
+}
+.card-body06 {
+    background-image: url(xz1.jpeg);
+  
+}
+.card-body07 {
+    background-image: url(xz1.jpeg);
+  
+
+}
+.card-body08 {
+    background-image: url(xz1.jpeg);
+   
+}
+.card-body09{
+    background-image: url(xz1.jpeg);
+ 
+}
+.card-body10{
+    background-image: url(xz1.jpeg);
+
+}
+
 
 
 @media (max-width: 992px) {
@@ -1082,6 +1153,73 @@ a.ghost.inverted:hover {
 .hayalet-btn{
     margin-top: 30px;
 }
+
+
+.arama{
+    
+    
+}
+
+
+.cantainer {
+    margin-top: 40px;
+}
+
+.arama input{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+    background-color: rgba(0,0,0,0.1);
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 450%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 10px 15px;
+	color: #fff;
+	font-size:20px;
+	border-radius: 0;
+	font-weight: 600;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: 0.3em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+a.animated-button {
+    letter-spacing: 12px;
+}
+
+/* Victoria Buttons */
+
+a.animated-button.victoria-one {
+	border: 2px solid #D24D57;
+    background: #D24D57;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

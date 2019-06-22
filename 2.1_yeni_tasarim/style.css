@@ -559,11 +559,15 @@ hr.star-dark {
 #portfolio-images {
     margin-left: 10%;
     margin-right: 10%;
+
 }
 
+
+
 #portfolio-image {
-    margin-left: 2%;
-    margin-right: 2%;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+
 }
 
 
@@ -856,7 +860,6 @@ img {
     transition: box-shadow 0.3s;
     display: block;
     float: left;
-
 }
 
 .card-category {
@@ -888,7 +891,7 @@ img {
     width: 100%;
     color: #fff;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 200px;
     background-size: cover;
 
 
@@ -900,7 +903,7 @@ img {
     width: 100%;
     color: #fff;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 200px;
     background-size: cover;
 
 
@@ -912,7 +915,7 @@ img {
     width: 100%;
     color: #fff;
     background-repeat: no-repeat;
-    height: 300px;
+    height: 200px;
     background-size: cover;
 
 
@@ -1197,7 +1200,7 @@ a.ghost {
 }
 
 a.ghost.inverted {
-     
+
     color: #848484;
     border: 2px solid lightgray;
     border-radius: 5px;
@@ -1205,12 +1208,12 @@ a.ghost.inverted {
 
 
 a.ghost:hover {
-    
+
     box-shadow: 0 15px 25px 5px rgba(1, 1, 1, 0.3);
 }
 
 a.ghost.inverted:hover {
-    
+
     color: #212121;
     background-color: transparent;
     box-shadow: 0 15px 25px 5px rgba(1, 1, 1, 0.1);
@@ -1293,7 +1296,11 @@ a.ghost.inverted:hover {
 
 
 .cantainer {
-    margin-top: 50px;
+    margin-top: -30px;
+}
+
+.cantainer-1 {
+    margin-top: 30px;
 }
 
 .arama input {
@@ -1346,4 +1353,26 @@ a.animated-button {
 a.animated-button.victoria-one {
     border: 2px solid #dd4c4f;
     background: #dd4c4f;
+}
+
+
+.kategori-baslik {
+    text-align: left;
+    font-weight: 1200;
+    margin-left: 2%;
+    margin-bottom: 3%;
+
+}
+
+.card p {
+    background-color: transparent;
+    text-align: left;
+    padding: 10px;
+    font-weight:700;
+    opacity: 0.8;
+}
+
+.card p span {
+    color: #F05537;
+    opacity: 0.8;
 }

@@ -809,9 +809,6 @@ input.ghost {
     border-radius: 35px;
     padding: 15px 45px;
     text-decoration: none;
-    transition: background-position 0.6s, color 0.6s, box-shadow 0.6s, margin-top 0.6s;
-    background-position: 10% 10%;
-
 
 }
 
@@ -829,15 +826,19 @@ input.ghost.inverted {
 }
 
 input.ghost:hover {
+    box-shadow: 0 15px 25px 5px rgba(1, 1, 1, 0.3);
     margin-top: 0px;
     color: black;
-    background-position: 0 -100%;
 
 }
 
 input.ghost.inverted:hover {
-    color: black;
-    background-position: 0 -100%;
+    
+    color: #212121;
+    background-color: transparent;
+    box-shadow: 0 15px 25px 5px rgba(1, 1, 1, 0.1);
+    transition-property: box-shadow;
+    transition-duration: 0.8s;
 
 }
 
@@ -1327,7 +1328,7 @@ a.animated-button:visited {
     position: relative;
     display: block;
     margin: 30px auto 0;
-    padding: 10px 15px;
+    padding: 6px 1px;
     color: #fff;
     font-size: 20px;
     border-radius: 0;
@@ -1345,7 +1346,7 @@ a.animated-button:visited {
 }
 
 a.animated-button {
-    letter-spacing: 12px;
+    letter-spacing: 5px;
 }
 
 /* Victoria Buttons */
@@ -1353,6 +1354,7 @@ a.animated-button {
 a.animated-button.victoria-one {
     border: 2px solid #dd4c4f;
     background: #dd4c4f;
+    font-weight: 300;
 }
 
 
@@ -1375,4 +1377,14 @@ a.animated-button.victoria-one {
 .card p span {
     color: #F05537;
     opacity: 0.8;
+}
+
+
+.giris-paragraf{
+    font-size: 16px;
+    text-transform: lowercase;
+    letter-spacing: 2px;
+    line-height: 2;
+    font-weight: 300;
+    
 }

@@ -719,7 +719,7 @@ hr.star-dark {
 .footer-as {
     padding-top: 10rem;
     padding-bottom: 10rem;
-    background-color: #F7F7F7;
+    background-color: #f7f7f7;
     color: #000000;
     text-align: center;
     margin-top: 320px;
@@ -825,7 +825,7 @@ input.ghost {
 input.ghost.inverted {
     background-image: linear-gradient(to bottom, transparent 90%, lightgray 110%);
     color: black;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
 input.ghost:hover {
@@ -1356,8 +1356,9 @@ a.animated-button {
 
 .cantainer-1 h1{
     opacity: 0.9; 
-    font-family: 'Cinzel', sans-serif; 
-    letter-spacing: 1px; 
+    font-size: 25px;
+    font-family: 'Cormorant', serif;
+    letter-spacing: 2px; 
     font-weight: 600;
 }
 

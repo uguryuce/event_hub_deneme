@@ -176,7 +176,7 @@ section {
 
 nav {
     width: 100%;
-    font-family: Montserrat;
+    font-family: 'Roboto', sans-serif;
     background-color: white;
     color: #000;
     padding-top: 1.2rem;
@@ -207,12 +207,14 @@ nav {
 #nav-links .nav-item {
     float: left;
     margin: .4rem;
+    
 }
 
 #nav-links .nav-link {
+    
     color: #000;
     font-size: 1.9rem;
-    font-weight: 700;
+    font-weight: 300;
     display: block;
     padding-right: 1.6rem;
     letter-spacing: .1rem;
@@ -235,7 +237,7 @@ nav {
     padding: 15px 0 5px 0;
     list-style: none;
     background-color: white;
-    color: black;
+    
 
 
 }
@@ -287,6 +289,7 @@ nav {
     font: bold 25px/25px Arial, Helvetica;
     text-decoration: none;
     text-shadow: 0 1px 0 #000;
+    
 
 }
 
@@ -327,10 +330,11 @@ nav {
     top: 35px;
     left: 0;
     z-index: 99999;
-    background-color: black;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
+    background-color: white;
+    text-decoration: none;
+    
 }
+
 
 @media (max-width: 992px) {
     #menu ul {
@@ -339,6 +343,7 @@ nav {
 }
 
 #menu ul li {
+    
     float: none;
     margin: 0;
     padding: 0;
@@ -366,6 +371,7 @@ nav {
     /* IE6 */
     height: 10px;
     width: 150px;
+    
 }
 
 *:first-child + html #menu ul a {
@@ -401,6 +407,7 @@ nav {
 #menu ul li:nth-child(odd) a {
     background-color: white;
     color: black;
+    
 }
 
 /* Clear floated elements */

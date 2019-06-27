@@ -207,11 +207,11 @@ nav {
 #nav-links .nav-item {
     float: left;
     margin: .4rem;
-    
+
 }
 
 #nav-links .nav-link {
-    
+
     color: #000;
     font-size: 1.9rem;
     font-weight: 300;
@@ -237,7 +237,7 @@ nav {
     padding: 15px 0 5px 0;
     list-style: none;
     background-color: white;
-    
+
 
 
 }
@@ -289,7 +289,7 @@ nav {
     font: bold 25px/25px Arial, Helvetica;
     text-decoration: none;
     text-shadow: 0 1px 0 #000;
-    
+
 
 }
 
@@ -332,7 +332,7 @@ nav {
     z-index: 99999;
     background-color: white;
     text-decoration: none;
-    
+
 }
 
 
@@ -343,7 +343,7 @@ nav {
 }
 
 #menu ul li {
-    
+
     float: none;
     margin: 0;
     padding: 0;
@@ -371,7 +371,7 @@ nav {
     /* IE6 */
     height: 10px;
     width: 150px;
-    
+
 }
 
 *:first-child + html #menu ul a {
@@ -407,7 +407,7 @@ nav {
 #menu ul li:nth-child(odd) a {
     background-color: white;
     color: black;
-    
+
 }
 
 /* Clear floated elements */
@@ -806,7 +806,7 @@ footer li {
 }
 
 input.ghost {
-    
+
     display: inline-table;
     background-color: transparent;
     background-image: linear-gradient(to bottom, transparent 50%, white 50%);
@@ -843,7 +843,7 @@ input.ghost:hover {
 }
 
 input.ghost.inverted:hover {
-    
+
     color: #212121;
     background-color: transparent;
     box-shadow: 0 15px 25px 5px rgba(1, 1, 1, 0.1);
@@ -864,7 +864,7 @@ img {
 
 
 .card {
-    width: 17%;
+    width: 16%;
     margin: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
     border-radius: 5px;
@@ -1300,9 +1300,27 @@ a.ghost.inverted:hover {
 
 
 .arama {
-    margin-top: -50px;
+    margin-left: -100px;
+    margin-top: -20px;
     padding-top: 30px;
     padding-bottom: 30px;
+    display: block;
+
+    float: left;
+}
+
+.arama-aciklama {
+    margin-left: -40px;
+    padding-right: 20px;
+    margin-top: -40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: block;
+    width: 60%;
+    float: left;
+    font-size: 30px;
+    font-weight: 300;
+    font-family: sans-serif;
 }
 
 
@@ -1311,8 +1329,8 @@ a.ghost.inverted:hover {
 }
 
 .cantainer-1 {
-    
-    margin-top: 30px;
+
+    margin-top: 20px;
 }
 
 
@@ -1361,19 +1379,19 @@ a.animated-button {
     letter-spacing: 5px;
 }
 
-.cantainer-1 h1{
-    opacity: 0.9; 
-    font-size: 25px;
-    font-family: 'Cormorant', serif;
-    letter-spacing: 2px; 
-    font-weight: 600;
+.cantainer-1 h1 {
+    text-align:left;
+    margin-left: 6%;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 /* Victoria Buttons */
 
 a.animated-button.victoria-one {
-    border: 2px solid #dd4c4f;
-    background: #dd4c4f;
+    border: 2px solid #F05537;
+    background: #F05537;
+    opacity: 0.9;
     font-weight: 300;
 }
 
@@ -1381,8 +1399,9 @@ a.animated-button.victoria-one {
 .kategori-baslik {
     text-align: left;
     font-weight: 1200;
-    margin-left: 2%;
+    margin-left: -6%;
     margin-bottom: 3%;
+    margin-top: -60px;
 
 }
 
@@ -1390,10 +1409,10 @@ a.animated-button.victoria-one {
     background-color: transparent;
     text-align: left;
     padding: 10px;
-    font-weight:300;
+    font-weight: 300;
     opacity: 0.8;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 .card p span {
@@ -1402,13 +1421,13 @@ a.animated-button.victoria-one {
 }
 
 
-.giris-paragraf{
+.giris-paragraf {
     font-size: 16px;
     text-transform: lowercase;
     letter-spacing: 2px;
     line-height: 2;
     font-weight: 300;
-    
+
 }
 
 
@@ -1418,15 +1437,16 @@ a.animated-button.victoria-one {
     height: auto;
     background-color: #3453C5;
     color: white;
-   
+
 }
-.hakkinda-bolum h1{
+
+.hakkinda-bolum h1 {
     font-size: 50px;
     text-align: center;
     font-weight: bold;
 }
 
-.hakkinda-bolum .hakkinda-sol{
+.hakkinda-bolum .hakkinda-sol {
     padding: 100px;
     background-color: #3453C5;
     display: block;
@@ -1446,18 +1466,18 @@ a.animated-button.victoria-one {
     height: auto;
 }
 
-.hakkinda-bolum .hakkinda-sol h3{
+.hakkinda-bolum .hakkinda-sol h3 {
     text-align: center;
     font-size: 30px;
 }
 
-.hakkinda-bolum .hakkinda-sag h3{
+.hakkinda-bolum .hakkinda-sag h3 {
     text-align: center;
     font-size: 30px;
 }
 
 
-.icon{
+.icon {
     display: block;
     float: left;
     border-right-width: 100%;
@@ -1473,10 +1493,83 @@ a.animated-button.victoria-one {
     float: right;
     width: 85%;
     margin-top: 20px;
-    
-    
+
+
 }
 
+form.ozel-1 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: all 1s;
+    width: 50px;
+    height: 50px;
+    background: white;
+    box-sizing: border-box;
+
+    border: 4px solid white;
+    padding: 5px;
+}
+
+input.ozel {
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 42.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 35px;
+    padding: 0 20px;
+}
+
+.fa,
+.ab {
+    box-sizing: border-box;
+    padding: 8px;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color: #07051a;
+    text-align: left;
+    font-size: 2em;
+    transition: all 1s;
+}
+
+form.ozel-1:hover {
+    width: 550px;;
+    cursor: pointer;
+    
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    
+    
 
 
 
+}
+
+form.ozel-1:hover input {
+    display: block;
+    padding-right: 80px;
+
+
+}
+
+form.ozel-1:hover .fa,
+.ab {
+    background: #fff;
+    color: black;
+    margin-top: 5px;
+    font-size: 1.3em;
+
+}

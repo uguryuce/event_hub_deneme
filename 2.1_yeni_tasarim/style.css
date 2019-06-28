@@ -565,16 +565,16 @@ hr.star-dark {
 }
 
 #portfolio-images {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 6%;
+    margin-right: 6%;
 
 }
 
 
 
 #portfolio-image {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-    border-top: 2px solid rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 100%;
 
 }
 
@@ -768,8 +768,8 @@ footer li {
 
 .header {
     background-image:
-        linear-gradient(to left bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(abc1.jpeg);
+        linear-gradient(to left bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
+        url(a3k.jpeg);
     height: 50vh;
     background-size: cover;
     background-position: top;
@@ -789,7 +789,7 @@ footer li {
 
 .heading-main {
     display: block;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 100;
     letter-spacing: 10px;
 }
@@ -1196,11 +1196,11 @@ a.ghost {
     letter-spacing: 2px;
     color: #848484;
     border: 1px solid white;
-    padding: 15px 25px;
+    padding: 10px 15px;
     text-decoration: none;
     transition: background-position 0.6s, color 0.6s, box-shadow 0.6s, margin-top 0.6s;
     float: center;
-    font-size: 14px;
+    font-size: 12px;
 
 }
 
@@ -1214,7 +1214,7 @@ a.ghost {
 a.ghost.inverted {
 
     color: #848484;
-    border: 2px solid lightgray;
+    border: 1px solid lightgray;
     border-radius: 5px;
 }
 
@@ -1327,11 +1327,14 @@ a.ghost.inverted:hover {
 
 .cantainer {
     margin-top: -30px;
+    
 }
 
 .cantainer-1 {
 
-    margin-top: 20px;
+    margin-top: 430px;
+    margin-left: 3%;
+    margin-bottom: -300px;
 }
 
 
@@ -1382,9 +1385,10 @@ a.animated-button {
 
 .cantainer-1 h1 {
     text-align:left;
-    margin-left: 6%;
-    font-size: 20px;
+    margin-left: 3%;
+    font-size: 40px;
     font-weight: bold;
+    opacity: 0.8;
 }
 
 /* Victoria Buttons */
@@ -1392,7 +1396,7 @@ a.animated-button {
 a.animated-button.victoria-one {
     border: 2px solid #F05537;
     background: #F05537;
-    opacity: 0.9;
+    opacity: 0.6;
     font-weight: 300;
 }
 
@@ -1402,7 +1406,7 @@ a.animated-button.victoria-one {
     font-weight: 1200;
     margin-left: -6%;
     margin-bottom: 3%;
-    margin-top: -60px;
+    margin-top: -80px;
 
 }
 
@@ -1573,4 +1577,20 @@ form.ozel-1:hover .fa,
     margin-top: 5px;
     font-size: 1.3em;
 
+}
+
+
+.buton-sol {
+    display: inline-block;
+    float: left;
+    width: 50%;
+    
+}
+
+.buton-sag{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    margin-top: -20px;
+    margin-left: -50px;
 }

@@ -179,8 +179,8 @@ nav {
     font-family: 'Roboto', sans-serif;
     background-color: white;
     color: #000;
-    padding-top: 1.2rem;
-    padding-bottom: 1.2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     position: fixed;
     z-index: 500;
 }

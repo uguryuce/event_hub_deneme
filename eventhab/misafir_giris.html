@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>EventHab</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+    <link rel="stylesheet" href="event_style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="container clearfix">
+            <div id="logo-box">
+                <a href="/" class="logo text-uppercase">
+                    EVENTHUB
+                </a>
+            </div>
+            <div id="nav-links" class="responsive">
+                <ul>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-uppercase nav-icon">
+                            <i class="fas fa-bars"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-uppercase">
+                            Oturum Aç
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-uppercase">
+                            Kayıt Ol
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link text-uppercase" style="color: #dd4c4f">
+                            Oluştur
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="">
+            <header class="header">
+
+                <div class="logo-box">
+                    <img class="logo" src="" alt="">
+                </div>
+
+                <h1 class="heading">
+                    <span class="heading-main" style="margin-bottom: 15px; ">ÖZGÜR ETKİNLİK</span>
+                    <span class="heading-sub">
+
+
+                    </span>
+                </h1>
+
+            </header>
+        </div>
+    </header>
+
+
+
+    <div id="myOverlay" class="overlay">
+        <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+        <div class="overlay-content">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Ara..." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <button class="openBtn" onclick="openSearch()">Bir etkinlik, konum veya kategori arayın</button>
+    <i class=" ab fa fa-search" style="font-size: 30px; color: #000"></i>
+
+
+
+
+    <section id="portfolio">
+        <div class="container">
+            <h2 class="kategori-baslik">
+                kategorileri <span style="color: #F05537;">keşfet</span>
+            </h2>
+
+
+            <div id="portfolio-images" class="clearfix">
+
+                <div class="col">
+                    <div class="portfolio-item">
+                        <a href="#">
+                            <img class="img-fluid" src="category/technology.jpeg" alt="">
+
+                            <div class="img-overlay">
+                                <div class="icon">
+                                    <i class="fas fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="portfolio-item">
+
+                        <a href="#">
+                            <img class="img-fluid" src="category/sanat.jpeg" alt="">
+
+                            <div class="img-overlay">
+                                <div class="icon">
+                                    <i class="fas fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="portfolio-item">
+
+                        <a href="#">
+                            <img class="img-fluid" src="category/dans.jpeg" alt="">
+
+                            <div class="img-overlay">
+                                <div class="icon">
+                                    <i class="fas fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="portfolio-item">
+
+                        <a href="#">
+                            <img class="img-fluid" src="category/sport.jpeg" alt="">
+
+                            <div class="img-overlay">
+                                <div class="icon">
+                                    <i class="fas fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="portfolio-item">
+
+                        <a href="#">
+                            <img class="img-fluid" src="category/music.jpeg" alt="">
+
+                            <div class="img-overlay">
+                                <div class="icon">
+                                    <i class="fas fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+                <div class="col">
+                    <div class="portfolio-item">
+
+                        <a href="#">
+                            <img class="img-fluid" src="category/evcil-hayvan.jpeg" alt="">
+
+                            <div class="img-overlay">
+                                <div class="icon">
+                                    <i class="fas fa-search-plus fa-3x"></i>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="about">
+        <div class="hakkinda-bolum">
+
+        <div>
+            <h1>event hub<span style="color: #FFF58C"> nedir?</span></h1>
+        </div>
+        <div>
+            <div class="hakkinda-sol">
+
+                <h3> event hub'ı keşfet</h3>
+
+                <div>
+                    <div class="icon"><i class="fas fa-search"></i></div>
+                    <div class="aciklama">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis nulla illum corporis quae quo harum vero possimus aliquam, quidem! Dolor ut unde sint sit maxime iste quas ratione officiis voluptas.</div>
+                </div>
+
+            </div>
+        </div>
+        <div>
+            <div class="hakkinda-sag">
+
+                <h3> event hub'a katıl</h3>
+
+                <div>
+                    <div class="icon"><i class="fas fa-plus"></i></div>
+                    <div class="aciklama">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis nulla illum corporis quae quo harum vero possimus aliquam, quidem! Dolor ut unde sint sit maxime iste quas ratione officiis voluptas.</div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+        
+
+    <footer class="footer-as">
+        <div class="container clearfix">
+
+            <div class="col">
+                <h4 class="text-uppercase" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 2px;">Lokasyon</h4>
+                <p style="font-family: 'Cormorant Garamond', serif; letter-spacing: 2px;">
+                    Erzurum , Türkiye
+                </p>
+            </div>
+            <div class="col">
+                <h4 class="text-uppercase" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 2px;">BİZİ TAKİP EDİN</h4>
+                <ul>
+
+                    <li>
+                        <button class="btn btn-social">
+                            <i class="fab fa-fw fa-facebook-f"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-social">
+                            <i class="fab fa-fw fa-google-plus-g"></i>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="btn btn-social">
+                            <i class="fab fa-fw fa-twitter"></i>
+                        </button>
+                    </li>
+
+                    <li>
+                        <button class="btn btn-social">
+                            <i class="fab fa-fw fa-linkedin-in"></i>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn btn-social">
+                            <i class="fab fa-fw fa-dribbble"></i>
+                        </button>
+                    </li>
+
+
+
+                </ul>
+            </div>
+            <div class="col">
+                <h4 class="text-uppercase" style="font-family: 'Cormorant Garamond', serif; letter-spacing: 2px;">HAKKIMIZDA</h4>
+                <p style="font-family: 'Cormorant Garamond', serif; letter-spacing: 2px;    ">
+                    Anam babam için ve de hatunum için yapıyorum bu işi biladerim için
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <div class="container">
+            <small>
+                Copyright © Your Website 2018
+            </small>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script>
+        $('.nav-icon').click(function() {
+            $('#nav-links').toggleClass("responsive");
+            return false;
+        });
+
+
+        function openSearch() {
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function closeSearch() {
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -284,9 +284,9 @@ header h2 {
 
 .header {
     background-image:
-        linear-gradient(to left bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)),
-        url(a3k.jpeg);
-    height: 50vh;
+        linear-gradient(to left bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(a3tam.jpeg);
+    height: 95vh;
     background-size: cover;
     background-position: top;
 

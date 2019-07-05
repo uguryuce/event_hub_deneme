@@ -14,47 +14,84 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Opsiyonel tema -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <!-- En son derlenmiş ve minimize edilmiş JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    
+    <script>
+        //Change pos/background/padding/add shadow on nav when scroll event happens 
+        $(function() {
+            var navbar = $('.navbar');
+
+            $(window).scroll(function() {
+                if ($(window).scrollTop() <= 40) {
+                    navbar.removeClass('navbar-scroll');
+                } else {
+                    navbar.addClass('navbar-scroll');
+                    
+                }
+            });
+            
+        });
+
+    </script>
 
     <link rel="stylesheet" href="event_style.css">
 </head>
 
 <body>
 
-    <nav>
-        <div class="container clearfix">
-            <div id="logo-box">
-                <a href="/" class="logo text-uppercase">
-                    EVENTHUB
-                </a>
+    <nav class="navbar navbar-default navbar-fixed-top" id="myScrollspy">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="" href="#">EVENTHAB</a>
             </div>
-            <div id="nav-links" class="responsive">
-                <ul>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-uppercase nav-icon">
-                            <i class="fas fa-bars"></i>
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-uppercase">
-                            Oturum Aç
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-uppercase">
-                            Kayıt Ol
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#" class="nav-link text-uppercase" style="color: #dd4c4f">
-                            Oluştur
-                        </a>
-                    </li>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#spytop">Katıl</a></li>
+                    <li><a href="#spydesingers">Giriş</a></li>
+                    <li><a href="#spydevelopers">Gezinti</a></li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- //Close Fixed Nav -->
+
+    <!-- Just to make the page big to see scroll -->
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script>
+        $('.collapsed').click(function() {
+            $('#navbar').toggleClass("collapse");
+            return false;
+        });
+
+
+        function openSearch() {
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function closeSearch() {
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+    </script>
+
 
     <header>
         <div class="">
@@ -66,7 +103,7 @@
                 </div>
 
                 <h1 class="heading">
-                    <span class="heading-main" style="margin-bottom: 15px; ">ÖZGÜR ETKİNLİK</span>
+                    <span class="heading-main" style="margin-bottom: 100px; ">TOPLULUĞA KATIL</span>
                     <span class="heading-sub">
 
 

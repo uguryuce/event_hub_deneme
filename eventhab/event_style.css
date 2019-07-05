@@ -1,3 +1,10 @@
+/* renk 1 : #C5D5CA
+   renk 2 : #9FA8A3
+   renk 3 : #E3E0CF
+   renk 4 : #FFFFFF
+
+
+*/
 * {
     padding: 0;
     margin: 0;
@@ -174,6 +181,51 @@ section {
 
 /*navbar*/
 
+.navbar {
+    background: transparent;
+    border-bottom: none;
+    padding: 30px 0;
+    transition-duration: 0.6s;
+}
+
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+    color: #183532;
+}
+
+/* jQuery Styles
+===================================*/
+.navbar-scroll {
+    background: white;
+    padding: 0;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    transition-duration: 0.6s;
+}
+
+.nav-dropdown-scroll {
+    background: #e7eaea;
+    box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
+}
+
+
+
+
+nav .navbar-header a {
+    font-size: 30px;
+    color: white;
+    font-weight: 100;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+nav #navbar li a {
+    opacity: 0.9;
+    background-color: #9FA8A3;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
 nav {
     width: 100%;
     font-family: Montserrat;
@@ -265,7 +317,6 @@ nav {
 
 header {
     background-color: white;
-    padding-top: calc(8rem);
     margin-bottom: 25px;
     text-align: center;
 }
@@ -285,8 +336,8 @@ header h2 {
 .header {
     background-image:
         linear-gradient(to left bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url(a3tam.jpeg);
-    height: 95vh;
+        url(ab3.jpeg);
+    height: 100vh;
     background-size: cover;
     background-position: top;
 
@@ -561,7 +612,7 @@ header h2 {
 .footer-as {
     padding-top: 10rem;
     padding-bottom: 10rem;
-    
+
     color: #000000;
     text-align: center;
     margin-top: 320px;
@@ -571,7 +622,7 @@ header h2 {
 .footer-te {
 
     padding-bottom: 10rem;
-   
+
     color: #000000;
     text-align: center;
 
@@ -590,6 +641,7 @@ footer li {
     display: inline-block;
     margin-right: 1rem;
 }
+
 .copyright {
     background-color: #1A252F;
     padding-top: 2.4rem;

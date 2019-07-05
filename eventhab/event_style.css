@@ -5,6 +5,14 @@
 
 
 */
+
+/* renk 1 : #252839
+   renk 2 : #677077
+   renk 3 : #B5B5B7
+   renk 4 : #F2B632
+
+
+*/
 * {
     padding: 0;
     margin: 0;
@@ -190,20 +198,24 @@ section {
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
-    color: #183532;
+    color: #848484;
 }
 
 /* jQuery Styles
 ===================================*/
 .navbar-scroll {
     background: white;
+    text-decoration-color: black;
     padding: 0;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
     transition-duration: 0.6s;
 }
 
+
+
 .nav-dropdown-scroll {
     background: #e7eaea;
+
     box-shadow: 0px 10px 9px rgba(0, 0, 0, 0.4);
 }
 
@@ -219,11 +231,13 @@ nav .navbar-header a {
 }
 
 nav #navbar li a {
-    opacity: 0.9;
-    background-color: #9FA8A3;
+    
+    background-color: #677077;
     margin: 10px;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
+    padding-right: 40px;
+    padding-left: 40px;
 }
 
 nav {
@@ -354,11 +368,20 @@ header h2 {
     transform: translate(-50%, -50%);
 }
 
+.heading p {
+    font-size: 18px;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    font-weight: 300;
+    line-height: 2;
+}
+
 .heading-main {
     display: block;
     font-size: 50px;
-    font-weight: 100;
+    font-weight: 600;
     letter-spacing: 10px;
+    opacity: 0.9;
 }
 
 .heading-sub {

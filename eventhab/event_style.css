@@ -102,8 +102,9 @@ section {
 }
 
 .img-fluid {
-    max-width: 100%;
-    height: 250px;
+    max-width: 80%;
+    height: 150px;
+    border-radius: 5px;
 }
 
 .clearfix::after {
@@ -168,8 +169,31 @@ section {
     }
 
     .col {
-        width: 33.33333%;
+        width: 25%;
+        padding: 20px;
     }
+}
+
+.col-f{
+    float: left;
+    width: 33.333%;
+    padding: 1rem;
+}
+
+.col-f h4{
+    font-weight: 300;
+    color: #f9f9f9;
+}
+
+.col-f p{
+    font-weight: 300;
+    color: #f9f9f9;
+}
+
+.col-f i{
+    color: #252839;
+    
+    
 }
 
 @media (min-width: 1200px) {
@@ -484,7 +508,7 @@ header h2 {
 
 #portfolio {
     margin-top: 25px;
-    background-color: #1e0a3c;
+    background-color: #252839;
     color: white;
 }
 
@@ -524,34 +548,35 @@ header h2 {
     top: 0;
     left: 0;
     height: 100%;
-    width: 100%;
-    background-color: #18BC9C;
+    width: 80%;
+    background-color: black;
     opacity: 0;
     transition: opacity .5s ease;
 }
 
 
-.img-overlay .icon {
-    color: #fff;
-    font-size: 2rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.img-overlay h3{
+    color: white;
+    margin-top: 30%;
 }
 
 
 .portfolio-item:hover .img-overlay {
-    opacity: 0.8;
+    opacity: 0.7;
 }
 
 
 /*about*/
+
+#about{
+    background-color: #f7f7f7;
+}
+
 .hakkinda-bolum {
-    padding-top: 50px;
+    padding-top: 0px;
     margin-top: 0px;
     height: auto;
-    background-color: #3453C5;
+    
     color: white;
 
 }
@@ -560,25 +585,26 @@ header h2 {
     font-size: 50px;
     text-align: center;
     font-weight: bold;
+    color: #252839;
 }
 
 .hakkinda-bolum .hakkinda-sol {
     padding: 100px;
-    background-color: #3453C5;
+    background-color: #f7f7f7;
     display: block;
     float: left;
     width: 50%;
-    color: white;
+    color: #252839;
     height: auto;
 }
 
 .hakkinda-sag {
     padding: 100px;
-    background-color: #3453C5;
+    background-color: #f7f7f7;
     display: block;
     float: left;
     width: 50%;
-    color: white;
+    color: #252839;
     height: auto;
 }
 
@@ -598,7 +624,7 @@ header h2 {
     border-right-width: 100%;
     width: 10%;
     font-size: 50px;
-    color: #FFF58C;
+    color: #677077;
 }
 
 
@@ -635,10 +661,10 @@ header h2 {
 .footer-as {
     padding-top: 10rem;
     padding-bottom: 10rem;
-
+background-color: #252839;
     color: #000000;
     text-align: center;
-    margin-top: 320px;
+    margin-top: 250px;
 
 }
 
@@ -653,11 +679,13 @@ header h2 {
 
 footer h4 {
     font-size: 2.4rem;
+    color: #f7f7f7;
 }
 
 footer p {
     font-size: 2rem;
     margin-top: 1rem;
+    color: #f7f7f7;
 }
 
 footer li {
@@ -666,7 +694,8 @@ footer li {
 }
 
 .copyright {
-    background-color: #1A252F;
+    border-top: 1px solid #848484;
+    background-color: #252839;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
     color: #fff;

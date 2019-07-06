@@ -508,6 +508,7 @@ header h2 {
 
 #portfolio {
     margin-top: 25px;
+    
     background-color: #252839;
     color: white;
 }
@@ -574,7 +575,7 @@ header h2 {
 
 .hakkinda-bolum {
     padding-top: 0px;
-    margin-top: 0px;
+    margin-top: -60px;
     height: auto;
     
     color: white;
@@ -698,6 +699,6 @@ footer li {
     background-color: #252839;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
-    color: #fff;
+    color: #848484;
     text-align: center;
 }

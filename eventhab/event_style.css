@@ -695,10 +695,10 @@ footer li {
 }
 
 .copyright {
-    border-top: 1px solid #848484;
+    border-top: 1px solid rgba(255,255,255,0.2);
     background-color: #252839;
     padding-top: 2.4rem;
     padding-bottom: 2.4rem;
-    color: #848484;
+    color: rgba(255,255,255,0.5);
     text-align: center;
 }

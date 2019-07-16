@@ -1,31 +1,117 @@
+
+<!-- 
+
+1.PROFİL
+2.SEÇİLEN ETKİNLİĞİN GÖRÜNDÜĞÜ DETAY SAYFASI
+
+
+
+-->
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="stylesheet" href="create_event.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link rel="stylesheet" href="jquery.clockinput.css">
+    <title>EventHab</title>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Opsiyonel tema -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <!-- En son derlenmiş ve minimize edilmiş JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    
+    <script>
+        //Change pos/background/padding/add shadow on nav when scroll event happens 
+        $(function() {
+            var navbar = $('.navbar');
+
+            $(window).scroll(function() {
+                if ($(window).scrollTop() <= 40) {
+                    navbar.removeClass('navbar-scroll');
+                } else {
+                    navbar.addClass('navbar-scroll');
+                    
+                }
+            });
+            
+        });
 
     </script>
 
-    <script src="jquery.clockinput.js"></script>
-
+    <link rel="stylesheet" href="create_event.css">
 </head>
 
 <body>
 
+    <nav class="navbar navbar-default navbar-fixed-top" id="myScrollspy">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">EVENTHAB</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#spytop">Katıl</a></li>
+                    <li><a href="#spydesingers" style="background-color: #F2B632">Giriş</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- //Close Fixed Nav -->
+
+    <!-- Just to make the page big to see scroll -->
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+    <script>
+        $('.collapsed').click(function() {
+            $('#navbar').toggleClass("collapse");
+            return false;
+        });
+
+
+        function openSearch() {
+            document.getElementById("myOverlay").style.display = "block";
+        }
+
+        function closeSearch() {
+            document.getElementById("myOverlay").style.display = "none";
+        }
+
+    </script>
 
 
     <section id="contact">
 
         <div id="image">
-        
-        <h1><span style="font-size: 150px; font-weight: 700;">C</span>ONTACT</h1>
-            <h1><span style="font-size: 150px; font-weight: 700;">M</span>E</h1>
+
+            <h1>CONTACT</h1>
+            <h1>ME</h1>
 
 
 
@@ -35,7 +121,7 @@
 
         <div class="container">
 
-            
+
 
 
 
@@ -83,19 +169,33 @@
             </form>
         </div>
     </section>
+    
+    
+
+    <div class="copyright">
+        <div class="container">
+            <small>
+                Copyright © Your Website 2018
+            </small>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 
     <script>
-        $(document).ready(function() {
-
-            $("input[type=time]").clockInput(false);
-
+        $('.nav-icon').click(function() {
+            $('#nav-links').toggleClass("responsive");
+            return false;
         });
 
-        $(document).ready(function() {
 
-            $("input[type=time]").clockInput(true);
+        function openSearch() {
+            document.getElementById("myOverlay").style.display = "block";
+        }
 
-        });
+        function closeSearch() {
+            document.getElementById("myOverlay").style.display = "none";
+        }
 
     </script>
 

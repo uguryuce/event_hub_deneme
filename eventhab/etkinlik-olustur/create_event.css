@@ -168,13 +168,26 @@ section {
 }
 
 #image {
-    background-image: url(nature.jpeg);
+    background-color: #f2b632;
     float: left;
     width: 30%;
-    height: 100vh;
+    height: 150vh;
     margin-top: -7%;
         
 }
+
+#image h1{
+    text-align: left;
+    color: white;
+    font-size: 55px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    margin: 30px;
+    
+}
+
+
 
 #contact h2 {
 	font-size: 4.8rem;

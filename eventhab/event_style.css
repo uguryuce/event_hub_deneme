@@ -374,7 +374,7 @@ header h2 {
 .header {
     background-image:
         linear-gradient(to left bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url(ab3.jpeg);
+        url(img/ab3.jpeg);
     height: 100vh;
     background-size: cover;
     background-position: top;

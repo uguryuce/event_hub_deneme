@@ -220,18 +220,35 @@
 .img{
     width:20%;
     float: left;
-    background-color: lightgray;
+    background-color: #f9f9f9;
     height: 100vh;
     position: fixed;
 }
 
 .img button{
     width: 100%;
-    height: 80px;
+    height: 90px;
+    padding: 30px;
+    color: #848484;
+    font-size: 13px;
     text-align: left;
+    font-weight: 300;
+    background-color: #f8f7fa;
     
+}
+
+.img button a{
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #848484;
+    font-size: 13px;
+    
+}
+
+.img button:hover {
     background-color: white;
-    border: 1px solid lightgray;
+    color: #212121;
 }
 
  .container-contact100 {
@@ -859,7 +876,7 @@ input::-webkit-input-placeholder {
 
 
 .bosluk {
-    height: 100px;
+    height: 150px;
     width: 100%;
 }
 

@@ -217,39 +217,39 @@
  /*//////////////////////////////////////////////////////////////////
 [ Contact ]*/
 
-.img{
-    width:20%;
-    float: left;
-    background-color: #f9f9f9;
-    height: 100vh;
-    position: fixed;
-}
+ .img {
+     width: 20%;
+     float: left;
+     background-color: #f9f9f9;
+     height: 100vh;
+     position: fixed;
+ }
 
-.img button{
-    width: 100%;
-    height: 90px;
-    padding: 30px;
-    color: #848484;
-    font-size: 13px;
-    text-align: left;
-    font-weight: 300;
-    background-color: #f8f7fa;
-    
-}
+ .img button {
+     width: 100%;
+     height: 90px;
+     padding: 30px;
+     color: #848484;
+     font-size: 13px;
+     text-align: left;
+     font-weight: 300;
+     background-color: #f8f7fa;
 
-.img button a{
-    list-style: none;
-    text-decoration: none;
-    font-family: sans-serif;
-    color: #848484;
-    font-size: 13px;
-    
-}
+ }
 
-.img button:hover {
-    background-color: white;
-    color: #212121;
-}
+ .img button a {
+     list-style: none;
+     text-decoration: none;
+     font-family: sans-serif;
+     color: #848484;
+     font-size: 13px;
+
+ }
+
+ .img button:hover {
+     background-color: white;
+     color: #212121;
+ }
 
  .container-contact100 {
      width: 80%;
@@ -342,23 +342,25 @@
      color: #afb1b3;
      line-height: 2;
      padding-right: 15px;
-     
+
  }
 
 
-	
-input::-moz-placeholder {
-  color: #848484;
-  opacity: 0.8;
-}
-input:-ms-input-placeholder {
-  color: #848484;
-    opacity: 0.8;
-}
-input::-webkit-input-placeholder {
-  color: #848484;
-    opacity: 0.8;
-}
+
+ input::-moz-placeholder {
+     color: #848484;
+     opacity: 0.8;
+ }
+
+ input:-ms-input-placeholder {
+     color: #848484;
+     opacity: 0.8;
+ }
+
+ input::-webkit-input-placeholder {
+     color: #848484;
+     opacity: 0.8;
+ }
 
 
  /*---------------------------------------------*/
@@ -847,37 +849,35 @@ input::-webkit-input-placeholder {
      }
  }
 
-.google{
-    background-color: #df4e36;
-    color: white;
-    width: 51%;
-    opacity: 0.9;
-    
-    
-}
-
-.face {
-    background-color: #446098;
-    color: white;
-    width: 51%;
-    opacity: 0.9;
-}
-
-.cizgi {
-    width: 100%;
-    text-align: center;
-    margin: 10px;
-
-}
-
-.guncelle-baslik {
-    text-align: left;
-}
+ .google {
+     background-color: #df4e36;
+     color: white;
+     width: 51%;
+     opacity: 0.9;
 
 
-.bosluk {
-    height: 150px;
-    width: 100%;
-}
+ }
+
+ .face {
+     background-color: #446098;
+     color: white;
+     width: 51%;
+     opacity: 0.9;
+ }
+
+ .cizgi {
+     width: 100%;
+     text-align: center;
+     margin: 10px;
+
+ }
+
+ .guncelle-baslik {
+     text-align: left;
+ }
 
 
+ .bosluk {
+     height: 150px;
+     width: 100%;
+ }

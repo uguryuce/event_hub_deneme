@@ -383,6 +383,7 @@ input::-webkit-input-placeholder {
      height: 50px;
      background-color: #f2b632;
      border-radius: 3px;
+     margin: 10px;
 
      font-family: sans-serif;
      font-size: 16px;
@@ -403,7 +404,8 @@ input::-webkit-input-placeholder {
  }
 
  .contact100-form-btn:hover {
-     background-color: #00ad5f;
+     opacity: 0.8;
+     transition: 1s opacity;
  }
 
  .contact100-form-btn:hover i {
@@ -817,3 +819,31 @@ input::-webkit-input-placeholder {
          padding: 15px 0px 0 0px;
      }
  }
+
+.google{
+    background-color: #df4e36;
+    color: white;
+    width: 51%;
+    opacity: 0.9;
+    
+    
+}
+
+.face {
+    background-color: #446098;
+    color: white;
+    width: 51%;
+    opacity: 0.9;
+}
+
+.cizgi {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+
+}
+
+
+
+
+

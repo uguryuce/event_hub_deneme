@@ -881,3 +881,26 @@
      height: 150px;
      width: 100%;
  }
+
+.ileri{
+    margin: 0px auto;
+    background-color: #f9f9f9;
+    padding: 10px;
+    width: 50%;
+    font-size: 13px;
+    border: 1px solid lightgray;
+    opacity: 0.5;
+}
+
+.geri{
+    margin: 0px auto;
+    background-color: #f9f9f9;
+    padding: 10px;
+    width: 50%;
+    font-size: 13px;
+    border: 1px solid lightgray;
+    opacity: 0.5;
+}
+
+
+

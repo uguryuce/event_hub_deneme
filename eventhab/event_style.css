@@ -373,6 +373,17 @@ nav #navbar li a#sari {
         color: black;
     }
     
+    nav #navbar li a:hover{
+        background-color: #fff;
+        color: #848484;
+        font-size: 16px;
+    }
+    
+    nav #navbar li a#sari:hover {
+        background-color: #fff;
+        color: #848484;
+    }
+    
     nav #navbar ul {
         background-color: white;
     }

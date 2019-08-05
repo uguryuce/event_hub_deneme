@@ -559,6 +559,18 @@ header h2 {
     opacity: 0.9;
 }
 
+@media (max-width:576px){
+    .heading-main{
+        font-size: 20px;
+        letter-spacing: 4px;
+    }
+    
+    .heading-sub p{
+        font-size: 16px;
+        width: 100%;
+    }
+}
+
 .heading-sub {
     display: block;
     font-size: 30px;

@@ -217,17 +217,25 @@
  /*//////////////////////////////////////////////////////////////////
 [ Contact ]*/
 
- .img {
-     width: 20%;
-     float: left;
-     background-image: url(../img/photo-1531315630201-bb15abeb1653.jpeg);
-     height: 100vh;
- }
+ .img{
+    width:20%;
+    float: left;
+    background-image: url(../img/abbbc2.jpeg);
+    height: 100vh;
+}
 
- .container-contact100 {
+@media (max-width:768px){
+    .img{
+        width: 100%;
+        height: 100px;
+    }
+}
+
+
+.container-contact100 {
      width: 80%;
      float: right;
-     min-height: 100vh;
+     max-height: 100vh;
      display: -webkit-box;
      display: -webkit-flex;
      display: -moz-box;
@@ -238,9 +246,16 @@
      align-items: center;
      padding: 15px;
      background: #fff;
+     
 
  }
 
+@media (max-width:768px){
+    .container-contact100{
+        width: 100%;
+        height:auto;
+    }
+}
  .wrap-contact100 {
      width: 920px;
      background: #fff;
@@ -276,6 +291,13 @@
      font-weight: 300;
  }
 
+@media (max-width:768px){
+    .contact100-form-title{
+        font-size: 28px;
+        margin-top: -30px;
+        margin-bottom: -10px;
+    }
+}
 
 
  /*------------------------------------------------------------------
@@ -383,7 +405,7 @@
      padding: 0 20px;
      width: 100%;
      height: 50px;
-     background-color: #f2b632;
+     background-color: #547995;
      border-radius: 3px;
      margin: 10px;
      
@@ -407,8 +429,10 @@
  }
 
  .contact100-form-btn:hover {
-     opacity: 0.8;
-     transition: 1s opacity;
+     background-color: white;
+     border: 1px solid #547995;
+     color: #547995;
+     transition: 0.5s background;
  }
 
  .contact100-form-btn:hover i {
@@ -859,11 +883,7 @@
      font-family: sans-serif;
  }
 
-.giris-yap {
-    width: 100%;
-    background-color: #252839;
-    opacity: 0.9;
-}
+
 
 
 

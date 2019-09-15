@@ -220,14 +220,21 @@
 .img{
     width:20%;
     float: left;
-    background-image: url(../img/photo-1531315630201-bb15abeb1653.jpeg);
+    background-image: url(../img/abbbc2.jpeg);
     height: 100vh;
+}
+
+@media (max-width:768px){
+    .img{
+        width: 100%;
+        height: 100px;
+    }
 }
 
  .container-contact100 {
      width: 80%;
      float: right;
-     min-height: 100vh;
+     max-height: 100vh;
      display: -webkit-box;
      display: -webkit-flex;
      display: -moz-box;
@@ -238,8 +245,16 @@
      align-items: center;
      padding: 15px;
      background: #fff;
+     
 
  }
+
+@media (max-width:768px){
+    .container-contact100{
+        width: 100%;
+        height:auto;
+    }
+}
 
  .wrap-contact100 {
      width: 920px;
@@ -275,6 +290,14 @@
      padding-bottom: 59px;
      font-weight: 300;
  }
+
+@media (max-width:768px){
+    .contact100-form-title{
+        font-size: 28px;
+        margin-top: -30px;
+        margin-bottom: -10px;
+    }
+}
 
 
 
@@ -381,7 +404,7 @@ input::-webkit-input-placeholder {
      padding: 0 20px;
      width: 100%;
      height: 50px;
-     background-color: #f2b632;
+     background-color: #263a58;
      border-radius: 3px;
      margin: 10px;
 
@@ -404,8 +427,11 @@ input::-webkit-input-placeholder {
  }
 
  .contact100-form-btn:hover {
-     opacity: 0.8;
-     transition: 1s opacity;
+  
+     background-color: white;
+     border: 1px solid #263a58;
+     color: #263a58;
+     transition: 0.5s background;
  }
 
  .contact100-form-btn:hover i {
